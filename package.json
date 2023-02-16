@@ -1,0 +1,62 @@
+{
+  "name": "fastify-ethers",
+  "version": "0.0.1-alpha.1",
+  "description": "fastify-ethers is a plugin for the Fastify framework that provides EVM utilities for fastify based on ethers.js.",
+  "main": "plugin.js",
+  "types": "index.d.ts",
+  "engineStrict": false,
+  "engines": {
+    "node": "^14.x || >=16.x || >=18.x"
+  },
+  "scripts": {
+    "test": "tap *.test.js",
+    "test:cov": "tap --cov *.test.js --coverage-report=html",
+    "lint": "standard --verbose | snazzy",
+    "lint:ci": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jarcodallo/fastify-ethers.git"
+  },
+  "keywords": [
+    "ethereum",
+    "polygon",
+    "fastify",
+    "ethers",
+    "ethersjs",
+    "fastify-plugin",
+    "fastifyjs",
+    "binance-smart-chain",
+    "bsc",
+    "matic",
+    "eth"
+  ],
+  "author": "Jose Ramirez <jarcodallo@gmail.com>",
+  "license": "Apache 2.0",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/jarcodallo/fastify-ethers/issues"
+  },
+  "homepage": "https://github.com/jarcodallo/fastify-ethers#readme",
+  "devDependencies": {
+    "fastify": "^4.13.0",
+    "snazzy": "^9.0.0",
+    "standard": "^17.0.0",
+    "tap": "^16.3.4"
+  },
+  "dependencies": {
+    "fastify-plugin": "^4.5.0",
+    "@ethersproject/abstract-signer": "^5.7.0",
+    "@ethersproject/bignumber": "^5.7.0",
+    "@ethersproject/bytes": "^5.7.0",
+    "@ethersproject/contracts": "^5.7.0",
+    "@ethersproject/json-wallets": "^5.7.0",
+    "@ethersproject/logger": "^5.7.0",
+    "@ethersproject/networks": "^5.7.1",
+    "@ethersproject/providers": "^5.7.2",
+    "@ethersproject/signing-key": "^5.7.0",
+    "@ethersproject/wallet": "^5.7.0",
+    "@ethersproject/web": "^5.7.1",
+    "@ethersproject/wordlists": "^5.7.0"
+  }
+}

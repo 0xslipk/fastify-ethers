@@ -1,0 +1,10 @@
+test/
+coverage/
+.nyc_output/
+.git/
+.travis.yml
+.npmrc
+.nvmrc
+.editorconfig
+.circleci/
+.github/
